@@ -1,0 +1,40 @@
+.body {
+  font-family: ubuntu;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  font-weight: bold;
+  color: white;
+}
+
+#project .card:hover,
+#blog .card:hover {
+  font-weight: bold;
+  background-color: rgba(48, 48, 48, 0.027);
+}
+.jumbotron {
+  padding: 6rem 0 2rem 0;
+  background-color: #e50013;
+  color: antiquewhite;
+}
+section {
+  padding-top: 3rem;
+}
+#about {
+  padding-bottom: 2rem;
+}
+
+#project {
+  border-top: solid 6px #e50013;
+  background-color: rgba(214, 214, 214, 0.267);
+}
+#photo,
+#contact {
+  border-top: solid 6px #e50013;
+}
+#blog {
+  background-color: rgba(214, 214, 214, 0.267);
+  border-top: solid 6px #e50013;
+}
